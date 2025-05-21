@@ -1,4 +1,4 @@
-This README file contains information on the contents of the meta-system-init-scripts layer.
+This README file contains information on the contents of the meta-k3s-utils layer.
 
 Please see the corresponding sections below for details.
 
@@ -18,7 +18,7 @@ Dependencies
 Patches
 =======
 
-Please submit any patches against the meta-system-init-scripts layer to the xxxx mailing list (xxxx@zzzz.org)
+Please submit any patches against the meta-k3s-utils layer to the xxxx mailing list (xxxx@zzzz.org)
 and cc: the maintainer:
 
 Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
@@ -26,16 +26,16 @@ Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
 Table of Contents
 =================
 
-  I. Adding the meta-system-init-scripts layer to your build
+  I. Adding the meta-k3s-utils layer to your build
  II. Misc
 
 
-I. Adding the meta-system-init-scripts layer to your build
+I. Adding the meta-k3s-utils layer to your build
 =================================================
 
-Run 'bitbake-layers add-layer meta-system-init-scripts'
+Run 'bitbake-layers add-layer meta-k3s-utils'
 
 II. Misc
 ========
 
---- replace with specific information about the meta-system-init-scripts layer ---
+--- replace with specific information about the meta-k3s-utils layer ---
