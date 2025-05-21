@@ -1,0 +1,13 @@
+[Unit]
+Description=K3s Agent
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=exec
+ExecStart=/usr/local/bin/k3s agent
+Restart=always
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
